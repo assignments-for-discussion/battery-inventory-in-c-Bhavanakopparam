@@ -25,9 +25,7 @@ struct CountsBySoH countBatteriesByHealth(const int* presentCapacities, int nBat
 
   return counts;
 }
-  return counts;
-}
-
+ 
 void testBucketingByHealth() {
   const int presentCapacities[] = {115, 118, 80, 95, 91, 77};
   const int numberOfBatteries = sizeof(presentCapacities) / sizeof(presentCapacities[0]);
